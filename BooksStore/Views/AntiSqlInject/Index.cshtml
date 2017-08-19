@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<hr />
+@using (Html.BeginForm("Index","AntiSqlInject",FormMethod.Post))
+{
+    <input type="text" name="name"/>
+    <input type="text" name="password"/>
+    <input type="submit" value="提交"/>
+}
+<br />
+<span>@ViewBag.name</span><br />
+<hr />
+<span>@ViewBag.password</span>

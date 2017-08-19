@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Autofac.Mvc5</id>
+    <version>4.0.2</version>
+    <title>Autofac ASP.NET MVC 5 Integration</title>
+    <authors>Autofac Contributors</authors>
+    <owners>Autofac Contributors</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>http://autofac.org/</projectUrl>
+    <iconUrl>https://cloud.githubusercontent.com/assets/1156571/13684110/16b8f152-e6bf-11e5-84ae-22c66c6d351a.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET MVC 5 Integration for Autofac</description>
+    <summary>Provides an IDependencyResolver implementation and other integration points for System.Web.Mvc.</summary>
+    <releaseNotes>Release notes are at https://github.com/autofac/Autofac.Mvc/releases</releaseNotes>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Autofac" version="[4.0.1, 5.0.0)" />
+      <dependency id="Microsoft.AspNet.Mvc" version="[5.1.0, 6.0.0)" />
+    </dependencies>
+  </metadata>
+</package>

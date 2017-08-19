@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NLog.Schema</id>
+    <version>4.4.12</version>
+    <title>NLog Schema for Intellisense(TM)</title>
+    <authors>Kim Christensen, Julian Verdurmen</authors>
+    <owners>Kim Christensen, Julian Verdurmen</owners>
+    <licenseUrl>http://raw.github.com/NLog/NLog/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://nlog-project.org/</projectUrl>
+    <iconUrl>http://nlog-project.org/NConfig.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XSD file to enables Intellisense(TM) when editing NLog configuration files, for example in Visual Studio.  
+
+Note: extensions to NLog will report XSD errors. Those can be ignored safely.</description>
+    <summary>Enables Intellisense(TM) when editing NLog.config.</summary>
+    <releaseNotes>NLog 4.4.12</releaseNotes>
+    <language>en-US</language>
+    <tags>nlog intellisense xsd</tags>
+  </metadata>
+</package>

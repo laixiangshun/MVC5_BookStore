@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MemoryCache</id>
+    <version>1.2.0</version>
+    <title>MemoryCache</title>
+    <authors>Adam Riddick</authors>
+    <owners>Adam Riddick</owners>
+    <projectUrl>http://www.adamriddick.com/memorycache-memory-storage/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Working with a simple In-Memory Cache shouldn't cause anyone a headache. It should be simple to use and implemented at the click of a button.
+
+Enter MemoryCache, a very lightweight, thread safe In-Memory Cache ready to be used in scalable, multi-threaded solutions. MemoryCache is a .Net Library which can be installed directly from NuGet, making it quick and easy to store and retrieve objects.</description>
+    <summary />
+    <releaseNotes>V1.2.0 - Added overload to declare item expiration when storing. Added update method which persists object expiration. Added method to extend object expiration time.
+V1.1.0 - Added automated maintenance and cache item expirations
+V1.0.1 - Added missing .pdb File
+V1.0.0 - Initial Release</releaseNotes>
+    <copyright>2014 Adam Riddick</copyright>
+    <tags>Cache In-Memory Storage</tags>
+  </metadata>
+</package>

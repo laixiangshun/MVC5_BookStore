@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@model IEnumerable<BooksStore.Models.Book>
+<h2>Index</h2>
+<hr />
+@foreach (var item in Model)
+{
+    <hr />
+    <span>@Html.DisplayFor(model=>item.name)</span>
+    <span>@Html.DisplayFor(model=>item.zuozhe)</span>
+}
+
+<hr />
+<div id="data">
+</div>
+<a href="javascript:void(0);" onclick="GetJson();">获取json数据</a>
+<script type="text/javascript">
+    function GetJson() {
+        $.ajax({
+            url: "/Book/GetJson",
+            type: "get",
+            dataType: "json",
+            cache: false,
+            success: function (data) {
+                for (var i = 0; i < data.length;i++) {
+                    $("#data").append(
+                        $("<span></span>").text(data[i].name + ":" + data[i].zuozhe + ":" + data[i].createDate));
+                    $("#data").append("<hr/>");
+                }
+            },
+            error: function (responseText, Status, errorThrown) {
+                alert(responseText + "\n" + Status + "\n" + errorThrown);
+            }
+        });
+    }
+</script>
